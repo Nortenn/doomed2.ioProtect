@@ -4,6 +4,7 @@ const rinauthk = {
   b: true,
   c: true,
   d: true,
+  code_token: 123321,
   'D2': "",
   'k': {
     'Trap2808': true,
