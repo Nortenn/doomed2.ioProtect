@@ -9,9 +9,5 @@ const rinauthk = {
     'Trap2808': true,
     'TrA': true
   },
-  'script_owners': owners.names
-}
-
-const owners = {
-  names: ['rina', 'freeScript']
+  'script_owners': ['rina', 'freeScript']
 }
