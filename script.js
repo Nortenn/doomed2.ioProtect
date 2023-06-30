@@ -10,7 +10,7 @@ const rinauthk = {
     'TrA': true
   },
   owner_script: {
-    'rina': false,
-    'freeScript': true
+    rina: false,
+    freeScript: true
   }
 }
