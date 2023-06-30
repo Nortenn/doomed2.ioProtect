@@ -1,3 +1,3 @@
 const rinauthk = {
-    script: true
+    script: false
 }
