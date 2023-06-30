@@ -1,9 +1,9 @@
 const rinauthk = {
-  script: false,
-  a: false,
-  b: false,
-  c: false,
-  d: false,
+  script: true,
+  a: true,
+  b: true,
+  c: true,
+  d: true,
   'D2': "",
   'k': {
     'Trap2808': true,
