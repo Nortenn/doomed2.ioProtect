@@ -8,5 +8,10 @@ const rinauthk = {
   'k': {
     'Trap2808': true,
     'TrA': true
-  }
+  },
+  'script_owners': owners.names
+}
+
+const owners = {
+  names: ['rina', 'freeScript']
 }
