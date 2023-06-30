@@ -9,5 +9,8 @@ const rinauthk = {
     'Trap2808': true,
     'TrA': true
   },
-  script_owners: ['rina', 'freeScript']
+  'owner_script': {
+    'rina': true,
+    'freeScript': true
+  }
 }
