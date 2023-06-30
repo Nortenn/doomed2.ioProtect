@@ -3,7 +3,7 @@ const rinauthk = {
   a: true,
   b: true,
   c: true,
-  d: true,
+  d: false,
   'D2': "",
   'k': {
     'Trap2808': true,
