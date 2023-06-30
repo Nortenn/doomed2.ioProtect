@@ -6,8 +6,8 @@ const rinauthk = {
   d: true,
   'D2': "",
   'k': {
-    '': true,
-    '': true
+    'Trap2808': true,
+    'TrA': true
   },
   'init': () => { console['log']('Client run!')}
 }
