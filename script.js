@@ -1,2 +1,3 @@
-// script on off
-let script = true
+const rinauthk = {
+    script: true
+}
