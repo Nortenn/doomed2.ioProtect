@@ -8,7 +8,5 @@ const rinauthk = {
   'k': {
     'Trap2808': true,
     'TrA': true
-  },
-  'init': () => { console['log']('Client run!')}
+  }
 }
-rinauthk['init']()
