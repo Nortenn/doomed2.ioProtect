@@ -16,11 +16,11 @@ const rinauthk = {
   }
 }
 
-var rand = function() {
+const rand = () => {
   return Math.random().toString(36).substr(2);
 };
 
-var token = function() {
+const token = () => {
   return rand() + rand() + rand() + "-" + rand() + rand() + rand();
 };
 
