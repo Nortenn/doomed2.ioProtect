@@ -45,7 +45,7 @@ setInterval(() => {
 
 let connects = 0
 
-if (tokenSave == tokenSave) connects++
+if (tokenSave == tokenSave) connects + 1
 
 const usersDB = []
 
