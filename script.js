@@ -29,8 +29,18 @@ let apiKey = token();
 
 console.log(tokenSave);
 
+const tokenHistory = [];
+
 setInterval(() => {
   tokenSave = token();
   apiKey = token();
   console.log(tokenSave, apiKey);
+
+  const tokenObject = {
+    tokenSave,
+    apiKey
+  };
+
+  tokenHistory.push(tokenObject);
 }, 0);
+
