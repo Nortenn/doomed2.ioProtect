@@ -25,10 +25,12 @@ const token = () => {
 };
 
 let tokenSave = token();
+let apiKey = token();
 
 console.log(tokenSave);
 
 setInterval(() => {
   tokenSave = token();
+  apiKey = token();
   console.log(tokenSave);
 }, 10000);
