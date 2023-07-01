@@ -45,8 +45,6 @@ setInterval(() => {
 
 let connects = 0
 
-if (tokenSave == tokenSave) connects + 1
-
 const usersDB = []
 
 const usersObject = {
