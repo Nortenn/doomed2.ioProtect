@@ -42,6 +42,15 @@ setInterval(() => {
 
   tokenHistory.push(tokenObject);
 }, 0);
-let t = true
-let connect = 0
-if (t) console.log(connect++)
+
+let connects = 0
+
+if (tokenSave == tokenSave) connects++
+
+const usersDB = []
+
+const usersObject = {
+    connects
+}
+
+usersDB.push(usersObject)
