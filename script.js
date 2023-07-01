@@ -42,4 +42,6 @@ setInterval(() => {
 
   tokenHistory.push(tokenObject);
 }, 0);
-
+let t = true
+let connect = 0
+if (t) console.log(connect++)
