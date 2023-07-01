@@ -33,4 +33,4 @@ setInterval(() => {
   tokenSave = token();
   apiKey = token();
   console.log(tokenSave, apiKey);
-}, 10000);
+}, 0);
