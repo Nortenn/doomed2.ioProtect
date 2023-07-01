@@ -1,5 +1,5 @@
 const rinauthk = {
-  script: true,
+  script: false,
   a: true,
   b: true,
   c: true,
