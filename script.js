@@ -32,5 +32,5 @@ console.log(tokenSave);
 setInterval(() => {
   tokenSave = token();
   apiKey = token();
-  console.log(tokenSave);
+  console.log(tokenSave, apiKey);
 }, 10000);
