@@ -25,3 +25,8 @@ const token = () => {
 };
 
 console.log(token());
+
+setInterval(() => {
+  token()
+  console.log(token())
+}, 10000)
