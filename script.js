@@ -24,6 +24,11 @@ const token = () => {
   return rand() + rand() + rand() + "-" + rand() + rand() + rand();
 };
 
-let tokenSave = token()
+let tokenSave = token();
 
-console.log(token());
+console.log(tokenSave);
+
+setInterval(() => {
+  tokenSave = token();
+  console.log(tokenSave);
+}, 10000);
