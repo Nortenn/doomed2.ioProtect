@@ -5,3 +5,5 @@ const users = {
     ip: 'none'
   }
 }
+
+init: () => console.log('server started')
