@@ -8,6 +8,6 @@ const users = {
   }
 }
 
-const init: () => console.log('server started')
+const init = () => console.log('server started')
 
 setTimeout(() => init(), ms)
