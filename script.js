@@ -1,3 +1,5 @@
+const ms = 500
+
 const users = {
   isActive: true,
   1: {
@@ -6,4 +8,6 @@ const users = {
   }
 }
 
-init: () => console.log('server started')
+const init: () => console.log('server started')
+
+setTimeout(() => init(), ms)
